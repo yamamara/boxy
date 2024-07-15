@@ -4,14 +4,14 @@
 .Python
 [Bb]in
 
-### Removed because of CMake conflicts
+# Removed because of CMake conflicts
 # [Ii]nclude
 [Ll]ib
 [Ll]ib64
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
-.venv
+venv
 pip-selfcheck.json
 
 ### JetBrains template
@@ -92,4 +92,17 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+### CMake template
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
 
